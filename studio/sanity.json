@@ -1,0 +1,23 @@
+{
+  "root": true,
+  "api": {
+    "projectId": "2gcf47z6",
+    "dataset": "production"
+  },
+  "project": {
+    "name": "my-blog"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/components",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool"
+  ],
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema.js"
+    }
+  ]
+}
